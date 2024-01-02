@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="helloworldjavafx.FXMLDocumentController">
+  <children>
+    <Button id="lblMessage" fx:id="btnClick" layoutX="87.0" layoutY="113.0" mnemonicParsing="false" onAction="#clickedButton" text="Click Here">
+      <font>
+        <Font size="24.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Label fx:id="lblMessage" font="$x1" layoutX="85.0" layoutY="43.0" text="Message Here" textAlignment="JUSTIFY" textFill="#00cc21" />
+  </children>
+</AnchorPane>
